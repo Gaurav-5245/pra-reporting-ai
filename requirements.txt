@@ -7,5 +7,5 @@ langchain
 langchain-openai
 langchain-community
 langchain-huggingface
-entence-transformers
+sentence-transformers
 tiktoken
