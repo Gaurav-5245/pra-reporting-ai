@@ -14,14 +14,11 @@ Regulatory Logic Engine: Applies mandatory 20% deductions for intangible assets 
 Validation & Flagging: Features a "Validation Status" that identifies missing data and flags it as DATA REQUIRED.
 
 🛠️ Tech Stack
+
 Frontend: Streamlit
-
 AI Framework: LangChain
-
 Embeddings: HuggingFace (sentence-transformers)
-
 Vector Database: ChromaDB
-
 LLM: OpenAI (via OpenRouter API)
 
 ⚖️ Disclaimer & Purpose Limitation
@@ -35,24 +32,24 @@ Purpose Limitation: This tool is designed to assist in understanding PRA ruleboo
 
 Accuracy: While the tool aims for precision, LLM-generated outputs may occasionally contain inaccuracies. Always cross-reference with official PRA Rulebook documents.
 
-⚙️ Setup & Installation
-Clone the Repository:
+### ⚙️ Setup & Installation
 
-Bash
+Follow these steps to get the **PRA Reporting AI** running on your local machine:
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Install Dependencies:
+# 1. Clone the repository
+git clone https://github.com/Gaurav-5245/pra-reporting-ai.git
 
-Bash
+# 2. Go into the project directory
+cd pra-reporting-ai
 
+# 3. Install required libraries
 pip install -r requirements.txt
-Configure Secrets: Create .streamlit/secrets.toml:
 
-Ini, TOML
-
+# 4. Configure Secrets (Create .streamlit/secrets.toml)
 OPENROUTER_API_KEY = "your_api_key_here"
-(Note: This file is ignored by git via .gitignore for security).
+
+# 5. Run the application
+streamlit run app.py
 
 📂 Project Structure
 app.py: Streamlit UI & Logic.
