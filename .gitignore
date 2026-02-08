@@ -1,0 +1,23 @@
+# Streamlit local secrets
+.streamlit/
+
+# Python virtual environment and cache
+venv/
+__pycache__/
+*.pyc
+
+# Local Vector Database folder
+pra_knowledge_base/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Any local environment files
+.env
+# Editor / IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
